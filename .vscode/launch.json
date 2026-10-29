@@ -1,0 +1,10 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {"name": "Demo (webcam)", "type": "debugpy", "request": "launch", "program": "${workspaceFolder}/main.py", "args": ["--demo"], "cwd": "${workspaceFolder}", "console": "integratedTerminal"},
+    {"name": "Normal (webcam)", "type": "debugpy", "request": "launch", "program": "${workspaceFolder}/main.py", "cwd": "${workspaceFolder}", "console": "integratedTerminal"},
+    {"name": "Debug + segmentation (webcam)", "type": "debugpy", "request": "launch", "program": "${workspaceFolder}/main.py", "args": ["--debug", "--simulate"], "cwd": "${workspaceFolder}", "console": "integratedTerminal"},
+    {"name": "Test video (no webcam)", "type": "debugpy", "request": "launch", "program": "${workspaceFolder}/main.py", "args": ["--demo", "--source", "data/samples/test_walk.mp4", "--loop"], "cwd": "${workspaceFolder}", "console": "integratedTerminal"},
+    {"name": "Unit tests", "type": "debugpy", "request": "launch", "module": "unittest", "args": ["discover", "-s", "tests", "-v"], "cwd": "${workspaceFolder}", "console": "integratedTerminal"}
+  ]
+}

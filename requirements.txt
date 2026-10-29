@@ -1,0 +1,8 @@
+# Core (required)
+opencv-python>=4.8        # camera I/O, image processing, K-Means, drawing/UI
+numpy>=1.23
+ultralytics>=8.1          # YOLOv8n person detector (also installs torch + torchvision,
+                          # which the optional MobileNet-SSD detector uses)
+
+# Optional
+scikit-image>=0.21        # Felzenszwalb segmentation only (project runs without it)

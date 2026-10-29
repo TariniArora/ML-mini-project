@@ -1,0 +1,43 @@
+{
+  "log": "reference_run.csv",
+  "frames_evaluated": 440,
+  "target_visible_frames": 415,
+  "tracked_while_visible_pct": 100.0,
+  "mean_iou_with_ground_truth": 0.942,
+  "identity_switch_frames": 0,
+  "position_agreement_pct": 96.6,
+  "distance_zone_agreement_pct": 99.2,
+  "moving_while_target_lost_frames": 0,
+  "commands_per_phase": {
+    "A": {
+      "STOP": 3,
+      "FORWARD": 57
+    },
+    "B": {
+      "FORWARD": 16,
+      "FORWARD_LEFT": 44
+    },
+    "C": {
+      "FORWARD_LEFT": 22,
+      "FORWARD": 9,
+      "RIGHT": 29
+    },
+    "D": {
+      "RIGHT": 25,
+      "STOP": 35
+    },
+    "E": {
+      "STOP": 25,
+      "BACKWARD": 25
+    },
+    "F": {
+      "BACKWARD": 4,
+      "STOP": 21
+    },
+    "G": {
+      "STOP": 3,
+      "FORWARD": 27,
+      "FORWARD_LEFT": 95
+    }
+  }
+}
